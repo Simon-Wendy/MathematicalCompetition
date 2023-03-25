@@ -23,3 +23,7 @@ def go():
 
 if __name__ == '__main__':
     go()
+    try:
+        pass
+    except Exception as e:
+        print(e)

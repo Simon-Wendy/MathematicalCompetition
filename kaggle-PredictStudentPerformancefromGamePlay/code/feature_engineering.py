@@ -10,7 +10,8 @@ class Fea_engineering(object):
     def __init__(self):
         self.nums = ['elapsed_time','level', 'hover_duration', 'elapsed_time_diff','room_coor','screen_coor']
         self.cats = ['event_name', 'fqid', 'room_fqid', 'text']
-        self.events = ['navigate_click', 'person_click', 'cutscene_click', 'object_click', 'map_hover', 'notification_click','map_click', 'observation_click', 'checkpoint']
+        self.events = ['navigate_click', 'person_click', 'cutscene_click', 'object_click', 'map_hover', 'notification_click','map_click',
+                       'observation_click', 'checkpoint']
 
     def fea_transform(self,data):
         dfs = []
